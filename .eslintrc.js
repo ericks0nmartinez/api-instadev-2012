@@ -22,5 +22,10 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    camelcase: 'off',
+    'no-param-reassign': 'off',
+    'no-unused-vars': ['error', {
+      argsIgnorePattern: 'next',
+    }],
   },
 };
